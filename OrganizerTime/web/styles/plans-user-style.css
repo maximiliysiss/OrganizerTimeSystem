@@ -1,0 +1,171 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 19, 2018, 6:43:02 PM
+    Author     : zimma
+*/
+
+
+
+.column-user{
+    float:left;
+    width: 32%;
+    height: 100%;
+    display: block;
+    background-color: white;
+    border-left-style: inset;
+}
+.plans-user{
+    padding-left: 3%;
+    padding-bottom: 5%;
+    padding-top:  2%;
+    padding-right: 3%;
+    height: 91%;
+    color:#696969;
+}
+.plans-name-user{
+    color:#696969;
+    height: 5%;
+    display: block;
+    padding: 2%;
+    text-indent: 8%;
+    font-family: verdana;
+    font-size: 20pt;
+}
+.column-header-user{
+    padding-top: 5px;
+    font-size:18pt;
+    display: inherit;
+    text-indent: 15px;
+}
+.button-generate{
+    width: 40%;
+    margin-top: 1%;
+    height: 7%;
+    float:left;
+    border-style: ridge;
+    border-radius: 15px;
+    background-color: white;
+    font-family: verdana;
+    font-size: 12pt;
+    color:#696969;
+}
+.plans-content{
+    margin-right: 10px;
+    margin-left: 10px;
+    display: block;
+    height: 90%;
+    overflow: auto;
+}
+.info-state{
+    font-size: 11pt;
+    text-indent: 15px;
+    padding-top: 3%;
+    display: block;
+}
+.record{
+    border-bottom-style: ridge;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    text-indent: 10px;
+}
+.plans-list{
+    display: none;
+}
+
+.plans-module{
+    -webkit-user-select: none;
+    /* user-select -- это нестандартное свойство */
+
+    -moz-user-select: none;
+    /* поэтому нужны префиксы */
+    border-color: #9a9ca0;
+}
+.record-kr-plans{
+    float:left;
+    text-indent: 10px;
+    padding-top: 1%;
+    width: 61%;
+}
+.type-kr-plans{
+    float:left;
+    width:8%;
+    border:3px;
+    text-indent: 1.5%;
+    border-style: solid;
+}
+.img-kr-plans{
+    width: 10%;
+    margin-top: -1.5%;
+}
+
+.time-tp{
+    padding-left: 2%;
+    display: inline-block;
+    width:auto;
+}
+.value-tp{
+    display: inline-block;
+    width: auto;
+}
+.empty-tp{
+    display: inline-block;
+    width: 70%;
+}
+
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 10%;
+    text-align: center;
+    text-align-last: center;
+}
+option{
+    text-align: center;
+    text-align-last: center;
+}
+#create-new-plan-column{
+    padding-left: 5%;
+}
+.button-create{
+    margin-right: 2%;
+    height: 8%;
+    width: 12%;
+    border: 2px solid;
+    border-radius: 5px;
+    font-weight: bold;
+    border-color: #a8aaad;
+    background-color: #dbdbdb;
+    font-family: FontAwesome, "Open Sans", Verdana, sans-serif;
+}
+#planval{
+    margin-right: 2%;
+    margin-top: 1%;
+    height: 6%;
+    width: 65%;
+}
+#create-new-sh{
+    font-family: verdana;
+    margin-left: 2%;
+}
+.button-create:hover{
+    background-color: white;
+}
+#btn-create-shplan{
+    display: inline-block;
+    width: 30%;
+    text-align: center;
+    padding-top: 1%;
+}
+.create-textbox{
+    display: inline-block;
+    width: 40%; 
+    height: 6%;
+    border: 1px solid #a8aaad;
+    border-radius: 5px;
+}
+

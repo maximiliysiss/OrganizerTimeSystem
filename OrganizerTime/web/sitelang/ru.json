@@ -1,0 +1,87 @@
+{
+    "index": {
+        "about0": "Онлайн органайзер для управления временем",
+        "about1": "С помощью DayPlan вы сможете:<br>",
+        "about2": "► Записать долгосрочные и краткосрочные планы<br>► Сформировать график задач на сегодня вручную <br> или автоматически<br>► Вести журнал времени выполнения задач, <br> состоящих из шагов <br>► Использовать Google Calendar<br>"
+    },
+    "organizer": {
+        "plan": "Планы",
+        "header-text-str": "онлайн органайзер для управления временем",
+        "longplan": {
+            "title": "Долгосрочные планы",
+            "modal-windows": {
+                "main-menu": {
+                    "delete-all": "Удалить все"
+                },
+                "longplan-menu": {
+                    "delete": "Удалить",
+                    "finish": "Завершить",
+                    "postpone": "Отложить",
+                    "modify": "Изменить"
+                },
+                "longplan-menu-end": {
+                    "actual": "Сделать актуальным"
+                },
+                "longtask-menu-end": {
+                    "actual": "Сделать актуальным"
+                },
+                "longtask-menu": {
+                    "delete": "Удалить",
+                    "finish": "Завершить",
+                    "postpone": "Отложить",
+                    "modify": "Изменить"
+                },
+                "longplan-move-menu": {
+                    "move": "Переместить",
+                    "insert-up": "Вставить выше"
+                }
+            }
+        },
+        "shortplan": {
+            "title": "Краткосрочные планы",
+            "modal-windows": {
+                "main-menu": {
+                    "delete-all": "Удалить все",
+                    "delete-finished": "Удалить завершенные"
+                },
+                "shortplan-menu": {
+                    "delete": "Удалить",
+                    "finish": "Завершить",
+                    "postpone": "Отложить",
+                    "modify": "Изменить"
+                },
+                "shortplan-menu-end": {
+                    "actual": "Сделать актуальным"
+                }
+            }
+        },
+        "todayplan": {
+            "title": "Планы на сегодня",
+            "button": "Сгенерировать",
+            "modal-windows": {
+                "todayplan-menu": {
+                    "delete": "Удалить",
+                    "delete-all": "Удалить все",
+                    "postpone": "Отложить"
+                },
+                "todayplan-menu-end": {
+                    "actual": "Сделать актуальным"
+                }
+            }
+        },
+        "journal": {
+            "title": "Журнал",
+            "modal-windows": {
+                "jtask-menu": {
+                    "add": "Добавить шаг",
+                    "modify": "Изменить задачу",
+                    "delete": "Удалить задачу"
+                },
+                "jstep-menu": {
+                    "modify": "Изменить шаг",
+                    "delete": "Удалить шаг"
+                }
+            }
+        }
+    }
+}

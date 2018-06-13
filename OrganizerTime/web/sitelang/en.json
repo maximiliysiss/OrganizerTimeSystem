@@ -1,0 +1,87 @@
+{
+    "index": {
+        "about0": "Online organizer for time management",
+        "about1": "With DayPlan, you can:<br>",
+        "about2": "► Write down long-term and short-term plans<br>► Create a schedule of tasks for today manually <br> or automatically<br>► Log task time log consisting of steps <br>► Using Google Calendar<br>"
+    },
+    "organizer": {
+        "plan": "Plans",
+        "header-text-str": "online organizer for time management",
+        "longplan": {
+            "title": "Long-term plans",
+            "modal-windows": {
+                "main-menu": {
+                    "delete-all": "Delete all"
+                },
+                "longplan-menu": {
+                    "delete": "Delete",
+                    "finish": "Finish",
+                    "postpone": "Postpone",
+                    "modify": "Modify"
+                },
+                "longplan-menu-end": {
+                    "actual": "Set actual"
+                },
+                "longtask-menu-end": {
+                    "actual": "Set actual"
+                },
+                "longtask-menu": {
+                    "delete": "Delete",
+                    "finish": "Finish",
+                    "postpone": "Postpone",
+                    "modify": "Modify"
+                },
+                "longplan-move-menu": {
+                    "move": "Move",
+                    "insert-up": "Insert up"
+                }
+            }
+        },
+        "shortplan": {
+            "title": "Short-term plans",
+            "modal-windows": {
+                "main-menu": {
+                    "delete-all": "Delete all",
+                    "delete-finished": "Delete finished"
+                },
+                "shortplan-menu": {
+                    "delete": "Delete",
+                    "finish": "Finish",
+                    "postpone": "Postpone",
+                    "modify": "Modify"
+                },
+                "shortplan-menu-end": {
+                    "actual": "Set actual"
+                }
+            }
+        },
+        "todayplan": {
+            "title": "Plans for today",
+            "button": "Generate",
+            "modal-windows": {
+                "todayplan-menu": {
+                    "delete": "Delete",
+                    "delete-all": "Delete all",
+                    "postpone": "Postpone"
+                },
+                "todayplan-menu-end": {
+                    "actual": "Set actual"
+                }
+            }
+        },
+        "journal": {
+            "title": "Journal",
+            "modal-windows": {
+                "jtask-menu": {
+                    "add": "Add step",
+                    "modify": "Modify task",
+                    "delete": "Delete task"
+                },
+                "jstep-menu": {
+                    "modify": "Modify step",
+                    "delete": "Delete step"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,79 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 20, 2018, 8:32:49 AM
+    Author     : zimma
+*/
+
+body{
+    background-size: 100%;
+}
+#form-reg{
+    width: 40%;
+    position: absolute;
+    left: 55%;
+    top:5%;
+    color:white;
+    font-family: verdana;
+    font-size: 105%;
+}
+.info{
+    position: relative;
+    left:12%;
+}
+
+.name{
+    text-align: center;
+    font-size: 400%;
+    font-weight: normal;
+}
+li{
+    list-style:none;
+}
+
+.text{
+    font-size:15px;
+    color: white;
+    text-align: center;
+    vertical-align: middle;
+    font-family: verdana;
+}
+
+.gbutton-st{
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    height: 50px;
+    width: 60%;
+    text-align: left;
+    font-family: verdana;
+    background-color: #4286f4;
+}
+.gbutton-st:hover{
+    background-color: #1f5ec4;
+}
+.gImg{
+    float:left;
+    height: 100%;
+}
+.gtext{
+    text-align: center;
+    float: left;
+    width: 80%;
+    padding-top: 4%;
+}
+.language-box{
+    position: absolute;
+    width: 20%;
+    height: 9%;
+    left: 1%;
+    top: 1%;
+}
+
+.language{
+    height: 100%;
+    cursor: pointer;
+}

@@ -1,0 +1,85 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 20, 2018, 8:55:19 AM
+    Author     : zimma
+*/
+
+.journal-name{
+    -webkit-user-select: none;
+    /* user-select -- это нестандартное свойство */
+
+    -moz-user-select: none;
+    /* поэтому нужны префиксы */
+
+    -ms-user-select: none;
+    color:#696969;
+    height: 5%;
+    display: block;
+    padding: 2%;
+    text-indent: 8%;
+    font-family: verdana;
+    font-size: 20pt;
+}
+.journal{
+    -webkit-user-select: none;
+    /* user-select -- это нестандартное свойство */
+
+    -moz-user-select: none;
+    /* поэтому нужны префиксы */
+
+    -ms-user-select: none;
+    color:#696969;
+    height: 85%;
+    margin-left: 8%;
+    margin-top: 2%;
+}
+.column-second{
+    width: 23%;
+    margin-left: 2px;
+    height: 100%;
+    float:left;
+    overflow: auto;
+}
+.record-second{
+    margin-top: 2px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    border: solid;
+    overflow: auto;
+    border-radius: 10px;
+}
+.time-second{  
+    width: 15%;
+    display: inline;
+    float:left;
+}
+.second-inrecord{
+    text-indent: 8%;
+    display: inline;
+    width: 80%;
+    float:left;
+}
+.step-style{
+    padding-top: 3%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+}
+.modal-string:hover{
+    background-color: #ddd;
+}
+.time-step{
+    width: 40%;
+    float:left;
+}
+.val-step{
+    width: 60%;
+    float:left;
+}
+.journal-list{
+    overflow: auto;
+    display: none;
+}

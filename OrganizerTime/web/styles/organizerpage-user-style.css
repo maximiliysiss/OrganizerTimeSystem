@@ -1,0 +1,145 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Apr 20, 2018, 8:35:43 AM
+    Author     : zimma
+*/
+
+* {box-sizing: border-box}
+.body-user{
+    height: 95%;
+    font-family: "Lato", sans-serif;
+    background-color: #bbcbda;
+    margin:0 0 0 0;
+}
+
+/* Style the tab */
+.tab-user {
+    padding-left: 10px;
+    float: left;
+    width: 6%;
+    height: 300px;
+}
+
+/* Style the buttons inside the tab */
+.tab-user button {
+    background-color: #92a3ad;
+    border-radius: 10px 0 0 10px;
+    display: block;
+    color: black;
+    padding: 22px 16px;
+    margin-top: 10px;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: left;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab-user button:hover {
+    background-color: #ddd;
+    border-radius: 10px 0 0 10px;
+}
+
+/* Create an active/current "tab button" class */
+.tab-user button.active {
+    background-color: white;
+}
+
+/* Style the tab content */
+.tabcontent-user {
+    float: left;
+    padding: 0px 12px;
+    width: 94%;
+    border-left: none;
+    height: 95%;
+    background-color: white;
+}
+
+.header{
+    width: 100%;
+    height: 10%;
+    display: block;
+}
+
+.h-header{
+    font-size: 22pt;
+}
+
+.p-header{
+    text-indent: 25px;
+    margin-top: -0.5%;
+    font-style: italic;
+    font-size: 12pt;
+}
+
+.user-img{
+    height: 95%;
+    border-radius: 45px;
+}
+
+.gcalendare{
+    padding:2%;
+}
+
+.header-icon{
+    text-align: center;
+    width: 6%;
+    float:left;
+    height: 100%;
+    display: inherit;
+    background-color: #94a4b4;
+}
+
+.header-text{
+    padding-top: 4px;
+    font-family: verdana;
+    width: 69%;
+    float:left;
+    height: 100%;
+    padding-left: 10px;
+    display: inherit;
+}
+
+.header-user{
+    padding-top: 5px;
+    width: 5%;
+    height: 100%;
+    float:left;
+    display: inherit;
+    text-align: right;
+    padding-right: 1%;
+}
+.header-evelope{
+    padding-top: 1%;
+    width: 5%;
+    height: 100%;
+    float:left;
+    display: inherit;
+    text-align: right;
+    padding-right: 1%;
+}
+.header-username{
+    height: 100%;
+    width: 15%;
+    float:left;
+    display: inherit;
+    padding-top: 1%;
+}
+
+.language-box{
+    position: absolute;
+    width: 6%;
+    top: 75%;
+}
+
+.language{
+    width:100%;
+    cursor: pointer;
+}
